@@ -11,7 +11,7 @@ import streamlit as st
 
 load_dotenv()
 
-OPENAI_API_KEY="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"
+
 def tiktoken_len(text):
     tokenizer = tiktoken.get_encoding("cl100k_base")
     tokens = tokenizer.encode(text, disallowed_special=())
